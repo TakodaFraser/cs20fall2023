@@ -1,22 +1,34 @@
+import java.util.Scanner;
 
 public class test2 {
 
 	public static void main(String[] args) {
 		
 		
-		//Declaration
-		int age;
-		double cost;
-		String name;
-		char Letter;
+		System.out.print("Something here\n\n");
 		
-		//Initialization
-		age = 16;
-		cost = 45.50;
-		name = "name here";
-		Letter = 'f';
-		System.out.print(age+": "+(cost+name));
-		//System.out.print("type something else");
+		Scanner input = new Scanner(System.in);
+		
+		
+		System.out.print("enter the first number: ");
+		
+		
+		double num1 = input.nextDouble();
+		
+		System.out.print("enter the second number: ");
+		
+		
+		double num2 = input.nextDouble();
+		
+		double sum = num1 + num2;
+		
+		
+		System.out.print("the sum of the two are: " + sum);
+		
+		
+		
 	}
 
 }
+
+		
